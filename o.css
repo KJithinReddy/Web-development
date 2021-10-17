@@ -1,0 +1,236 @@
+/* css for middle part */
+
+#whole {
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color:#ff9999;
+}
+
+#middle-part {
+    max-width: 1200px;
+    width: 1200px;
+    height: 92%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 3.5fr 6.5fr;
+    border: 2px solid #cf8b33;
+}
+
+#two {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    padding: 12px;
+}
+
+#twoa {
+    display: grid;
+    grid-template-rows: 1fr 7fr 2fr;
+}
+
+#twoaa,
+#twoba {
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+#twobba {
+    display: grid;
+    /*grid-template-rows: 60fr 40fr;*/
+}
+
+#twobbaone,
+#twobbatwo {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: ;
+    padding-left: 12px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#twob {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+
+#twobb {
+    display: grid;
+    grid-template-columns: 26fr 37fr 37fr;
+}
+
+
+
+#twobbb {
+    font-family: 'Open Sans', sans-serif!important;
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+}
+
+
+
+
+#twobbbone {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#twobbc {
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+}
+
+#twobbcone {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#twobbbtwo,
+#twobbctwo {
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+}
+
+table {
+    border-collapse: separate;
+    width: 100%;
+	 
+  }
+ th{
+    padding: 8px;
+    background-color: #2ECCC0; 
+  
+}
+td {
+
+    text-align: center;
+    padding: 8px;
+	 
+}
+ 
+
+  tr:nth-child(even) {
+    background-color: #ffe6e6;
+    border: 1px solid #ffe6e6;
+  }
+
+
+
+/*FOR button */
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 0 5px 15px -5px black;
+    padding: 2px 0;
+    width: 180%;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+
+
+#box {
+    width: 80%;
+    height: 217px;
+    border: 1px solid white;
+    background-color:#ffffff;
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    overflow-y: auto;
+    line-height: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+
+/* input for rpm */
+
+#twobbbtwo input[type=text] {
+    margin-left: 20px;
+    width: 55%;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+	background-color:;
+}
+
+#twobbctwo input[type=text] {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+
+/*for machine Status */
+
+.led {
+    
+    margin-top: 2px;
+    width: 35%;
+    height: 90%; 
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 4px 1px, inset #5f5f5f 0 -1px 9px, #aaaaaa 0 1px 5px;
+}
+
+.green {
+    background-color:  	#0000ff;
+    box-shadow:  	#0000ff;
+}
+
+.ms,
+.mm {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 10px;
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+    width: 80%;
+    margin-top: 10px;
+}
+
+
+#gauge-a,
+#gauge-b {
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+   /* for the x y z box*/
+#one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 20px;
+
+}
+
+
+
