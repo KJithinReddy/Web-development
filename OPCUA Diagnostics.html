@@ -1,0 +1,287 @@
+
+<!-- saved from url=(0046)http://cmtiiiotonlinediagnosticsjithin.c1.biz/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>OPCUA Diagnostics</title> 
+		<link rel="stylesheet" href="./OPCUA Diagnostics_files/te.css">
+		<link rel="stylesheet" href="./OPCUA Diagnostics_files/stylee.css">
+		<script type="text/javascript" src="./OPCUA Diagnostics_files/axios.js.download"></script>
+		
+    <script>
+        let dev = 3;
+        let page = 2;
+        let print = (value) => {
+            if (dev) {
+                console.log("printing\n");
+                console.log(value);
+            } else {
+                console.log = function() {}
+            }
+        }
+        print("huh");
+    </script>
+	</head>
+	<body>
+   <header id="top">
+        <div id="header-element">
+            <img src="./OPCUA Diagnostics_files/CMTILogo_small.png" alt="cmti_logo" width="112" height="76">
+		
+            <div id="heading">OPCUA Operator Dashboard</div>
+            <div id="menu">
+                
+                    
+                
+                
+                    <p>Diagnostics</p>
+                
+               
+                
+               
+                    
+                
+            </div>
+        </div>
+    </header>
+    <section id="whole">
+        <section id="middle-part">
+           <div id="one">
+            <div class="tab">
+                <div class="tablinks">Alarms</div>
+				
+               
+                
+              </div>
+              
+        </div>
+           <div id="two">
+            <div id="London" class="tabcontent" style="display:block">
+               <h2><center>Alarm Logs</center></h2>
+               <table id="myTable">
+                <tbody><tr>
+                    <th>SL NO</th>
+                    <th>Timestamp</th>
+                    <th>Alarm_id</th>
+                    <th>SourceName</th>
+                    <th>Severity</th>
+                    <th>Message</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>2021-10-11 09:10:07</td>
+                    <td>230054</td>
+                    <td>NCU</td>
+                    <td>1000</td>
+                    <td>230054 | DP003.Slave003: SERVO 1 (4) Component SERVO 1-Motor Module_20:
+Power unit: Undervoltage when opening the brake. 209.</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>2021-10-11 11:29:29</td>
+                    <td>700063</td>
+                    <td>PLC</td>
+                    <td>500</td>
+                    <td>700063 | PALLET INTERRUPED DURING POWER CUT OR RESET OR EMERGENCY, SO PUT JOG MODE, SERVICE PB, THEN PALLET INTERRUPT PB TO CHANGE PALLET</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>2021-10-11 11:29:29</td>
+                    <td>700055</td>
+                    <td>PLC</td>
+                    <td>500</td>
+                    <td>700055 | LUBE PRESSURE NOT REACHED</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>2021-10-11 11:29:28</td>
+                    <td>700051</td>
+                    <td>PLC</td>
+                    <td>500</td>
+                    <td>700051 | PALLET NOT IN EITHER LEFT OR RIGHT</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>2021-10-11 09:10:08</td>
+                    <td>201331</td>
+                    <td>NCU</td>
+                    <td>1000</td>
+                    <td>201331 | DP003.Slave003: Control Unit (1) Component SPINDLE-Sensor Module-Combi-X201_11:
+Topology: At least one component not assigned to a drive object. Component number: SPINDLE-Sensor Module-Combi-X201_11.</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2021-10-11 09:10:07</td>
+                    <td>230054</td>
+                    <td>NCU</td>
+                    <td>1000</td>
+                    <td>230054 | DP003.Slave003: SERVO 1 (4) Component SERVO 1-Motor Module_20:
+Power unit: Undervoltage when opening the brake. 209.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>2021-10-08 11:23:35</td>
+                    <td>700032</td>
+                    <td>PLC</td>
+                    <td>500</td>
+                    <td>700032 | PRESS CONTROL ON PB TO CONTINUE....</td>
+                  </tr>
+                  <tr>
+              
+                      <td>8</td>
+                      <td>2021-10-08 11:23:35</td>
+                      <td>700063</td>
+                      <td>PLC</td>
+                      <td>500</td>
+                      <td>700063 | PALLET INTERRUPED DURING POWER CUT OR RESET OR EMERGENCY, SO PUT JOG MODE, SERVICE PB, THEN PALLET INTERRUPT PB TO CHANGE PALLET</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>2021-10-08 11:23:37</td>
+                    <td>230054</td>
+                    <td>NCU</td>
+                    <td>1000</td>
+                    <td>230054 | DP003.Slave003: SERVO 3 (6) Component SERVO 3-Motor Module_40:
+Power unit: Undervoltage when opening the brake. 210.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>2021-10-08 11:23:37</td>
+                    <td>201331</td>
+                    <td>NCU</td>
+                    <td>1000</td>
+                    <td>201331 | DP003.Slave003: Control Unit (1) Component SPINDLE-Sensor Module-Combi-X201_11:
+Topology: At least one component not assigned to a drive object. Component number: SPINDLE-Sensor Module-Combi-X201_11.</td>
+                  </tr>
+              
+            
+              </tbody></table>
+              </div>
+            
+           </div>
+        </section>
+    </section>
+    <!-- main ending-->
+    <footer id="page">
+        <div id="cmti_footer_copyright">
+            Central Manufacturing Technology Institute, Tumkur Road, Bengaluru - 560022, Karnataka, India<br> © 2014-2020 CMTI All Rights Reserved.
+        </div>
+    </footer>
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+   
+    
+    var myTable = document.getElementById('myTable');
+    setInterval(function() {
+    axios.get('https://cmti-iiot.online/plantmonitoring/php/alarmslog.php')
+           .then(function(response) {
+    
+               console.log(response.data);
+               data1 = response.data
+               let timeStamp = [];
+               let alarm_id = [];
+               let message = [];
+               let sourceName = [];
+               let severity = [];
+    
+    
+               for(var i=0;i<data1.length;i++)
+               {
+                 timeStamp.push(data1[i].Timestamp);
+                 alarm_id.push(data1[i].Alarm_id);
+                 message.push(data1[i].Message);
+              sourceName.push(data1[i].SourceName);
+                severity.push(data1[i].Severity);
+    
+                 // Dates.push(data1[i].date);
+               }
+               // data2 = data1.Alarm_id
+               // data2 = JSON.parse(data2);
+               console.log(timeStamp[0]);
+               console.log(alarm_id);
+               console.log(message);
+               console.log(sourceName);
+               console.log(severity);
+               myTable.rows[1].cells[1].innerHTML = timeStamp[0];
+           myTable.rows[2].cells[1].innerHTML = timeStamp[1];
+           myTable.rows[3].cells[1].innerHTML = timeStamp[2];
+           myTable.rows[4].cells[1].innerHTML = timeStamp[3];
+           myTable.rows[5].cells[1].innerHTML = timeStamp[4];
+           myTable.rows[6].cells[1].innerHTML = timeStamp[5];
+           myTable.rows[7].cells[1].innerHTML = timeStamp[6];
+           myTable.rows[8].cells[1].innerHTML = timeStamp[7];
+           myTable.rows[9].cells[1].innerHTML = timeStamp[8];
+           myTable.rows[10].cells[1].innerHTML = timeStamp[9];
+
+
+           myTable.rows[1].cells[2].innerHTML = alarm_id[0];
+           myTable.rows[2].cells[2].innerHTML = alarm_id[1];
+           myTable.rows[3].cells[2].innerHTML = alarm_id[2];
+           myTable.rows[4].cells[2].innerHTML = alarm_id[3];
+           myTable.rows[5].cells[2].innerHTML = alarm_id[4];
+           myTable.rows[6].cells[2].innerHTML = alarm_id[5];
+           myTable.rows[7].cells[2].innerHTML = alarm_id[6];
+           myTable.rows[8].cells[2].innerHTML = alarm_id[7];
+           myTable.rows[9].cells[2].innerHTML = alarm_id[8];
+           myTable.rows[10].cells[2].innerHTML = alarm_id[9];
+
+           myTable.rows[1].cells[5].innerHTML = message[0];
+           myTable.rows[2].cells[5].innerHTML = message[1];
+           myTable.rows[3].cells[5].innerHTML = message[2];
+           myTable.rows[4].cells[5].innerHTML = message[3];
+           myTable.rows[5].cells[5].innerHTML = message[4];
+           myTable.rows[6].cells[5].innerHTML = message[5];
+           myTable.rows[7].cells[5].innerHTML = message[6];
+           myTable.rows[8].cells[5].innerHTML = message[7];
+           myTable.rows[9].cells[5].innerHTML = message[8];
+           myTable.rows[10].cells[5].innerHTML = message[9];
+
+           myTable.rows[1].cells[3].innerHTML = sourceName[0];
+           myTable.rows[2].cells[3].innerHTML = sourceName[1];
+           myTable.rows[3].cells[3].innerHTML = sourceName[2];
+           myTable.rows[4].cells[3].innerHTML = sourceName[3];
+           myTable.rows[5].cells[3].innerHTML = sourceName[4];
+           myTable.rows[6].cells[3].innerHTML = sourceName[5];
+           myTable.rows[7].cells[3].innerHTML = sourceName[6];
+           myTable.rows[8].cells[3].innerHTML = sourceName[7];
+           myTable.rows[9].cells[3].innerHTML = sourceName[8];
+           myTable.rows[10].cells[3].innerHTML = sourceName[9];
+
+
+           myTable.rows[1].cells[4].innerHTML = severity[0];
+           myTable.rows[2].cells[4].innerHTML = severity[1];
+           myTable.rows[3].cells[4].innerHTML = severity[2];
+           myTable.rows[4].cells[4].innerHTML = severity[3];
+           myTable.rows[5].cells[4].innerHTML = severity[4];
+           myTable.rows[6].cells[4].innerHTML = severity[5];
+           myTable.rows[7].cells[4].innerHTML = severity[6];
+           myTable.rows[8].cells[4].innerHTML = severity[7];
+           myTable.rows[9].cells[4].innerHTML = severity[8];
+           myTable.rows[10].cells[4].innerHTML = severity[9];
+
+    
+    
+               
+             });
+              }, 1000);
+    
+
+    let tabHeads = document.querySelector('#menu').children;
+    tabHeads = tabHeads[page - 1].querySelector('p')
+    tabHeads.style.backgroundColor = "#0e2e3e";
+    tabHeads.style.color = "white";
+    tabHeads.style.transform = "scale(1.12)";
+</script>	
+
+	
+
+</body></html>
